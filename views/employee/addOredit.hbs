@@ -1,0 +1,29 @@
+
+<div class="container">
+<h3>{{viewTitle}}</h3>
+  <form action="/employee" method="POST" autocomplete="off">
+ <div class="form-group">
+   <label for="fullname">FullName:</label>
+   <input type="text" name="fullname" class="form-control" placeholder="fullname">
+ </div> 
+  <div class="form-group">
+   <label for="email">Email:</label>
+   <input type="text" name="email" class="form-control" placeholder="email">
+ </div>
+ <div class="row">
+  <div class="form-group col-md-6">
+   <label for="mobile">Mobile:</label>
+   <input type="text" name="mobile" class="form-control" placeholder="mobile">
+ </div>
+  <div class="form-group col-md-6">
+   <label for="city">City:</label>
+   <input type="text" name="city" class="form-control" placeholder="City">
+ </div>
+ </div>
+ <div class="form-group">
+   <button type="submit" class="btn btn-info">
+    <span class="fa fa-database"></span> Submit 
+   </button>
+ </div>
+</form>
+</div>
